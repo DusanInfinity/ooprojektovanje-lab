@@ -77,45 +77,6 @@
        <property name="spacing">
         <number>6</number>
        </property>
-       <item row="3" column="4">
-        <widget class="QPushButton" name="btn_Koren">
-         <property name="sizePolicy">
-          <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
-           <horstretch>0</horstretch>
-           <verstretch>0</verstretch>
-          </sizepolicy>
-         </property>
-         <property name="font">
-          <font>
-           <pointsize>18</pointsize>
-           <underline>false</underline>
-           <strikeout>false</strikeout>
-           <kerning>true</kerning>
-          </font>
-         </property>
-         <property name="text">
-          <string>√</string>
-         </property>
-        </widget>
-       </item>
-       <item row="3" column="3">
-        <widget class="QPushButton" name="btn_Jednako">
-         <property name="sizePolicy">
-          <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
-           <horstretch>0</horstretch>
-           <verstretch>0</verstretch>
-          </sizepolicy>
-         </property>
-         <property name="font">
-          <font>
-           <pointsize>18</pointsize>
-          </font>
-         </property>
-         <property name="text">
-          <string>=</string>
-         </property>
-        </widget>
-       </item>
        <item row="2" column="1">
         <widget class="QPushButton" name="btn_2">
          <property name="sizePolicy">
@@ -134,8 +95,8 @@
          </property>
         </widget>
        </item>
-       <item row="1" column="0">
-        <widget class="QPushButton" name="btn_4">
+       <item row="3" column="1">
+        <widget class="QPushButton" name="btn_Tacka">
          <property name="sizePolicy">
           <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
            <horstretch>0</horstretch>
@@ -148,7 +109,7 @@
           </font>
          </property>
          <property name="text">
-          <string>4</string>
+          <string>.</string>
          </property>
         </widget>
        </item>
@@ -170,8 +131,8 @@
          </property>
         </widget>
        </item>
-       <item row="0" column="1">
-        <widget class="QPushButton" name="btn_8">
+       <item row="1" column="3">
+        <widget class="QPushButton" name="btn_Mnozenje">
          <property name="sizePolicy">
           <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
            <horstretch>0</horstretch>
@@ -184,12 +145,12 @@
           </font>
          </property>
          <property name="text">
-          <string>8</string>
+          <string>*</string>
          </property>
         </widget>
        </item>
-       <item row="0" column="3">
-        <widget class="QPushButton" name="btn_Deljenje">
+       <item row="1" column="4">
+        <widget class="QPushButton" name="btn_BrisanjeCifre">
          <property name="sizePolicy">
           <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
            <horstretch>0</horstretch>
@@ -202,7 +163,43 @@
           </font>
          </property>
          <property name="text">
-          <string>/</string>
+          <string>←</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0">
+        <widget class="QPushButton" name="btn_0">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>18</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="2">
+        <widget class="QPushButton" name="btn_Plus">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>18</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>+</string>
          </property>
         </widget>
        </item>
@@ -224,8 +221,8 @@
          </property>
         </widget>
        </item>
-       <item row="0" column="0">
-        <widget class="QPushButton" name="btn_7">
+       <item row="0" column="4">
+        <widget class="QPushButton" name="btn_Reset">
          <property name="sizePolicy">
           <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
            <horstretch>0</horstretch>
@@ -238,12 +235,12 @@
           </font>
          </property>
          <property name="text">
-          <string>7</string>
+          <string>C</string>
          </property>
         </widget>
        </item>
-       <item row="3" column="2">
-        <widget class="QPushButton" name="btn_Plus">
+       <item row="1" column="0">
+        <widget class="QPushButton" name="btn_4">
          <property name="sizePolicy">
           <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
            <horstretch>0</horstretch>
@@ -256,7 +253,118 @@
           </font>
          </property>
          <property name="text">
-          <string>+</string>
+          <string>4</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QPushButton" name="btn_8">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>18</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>8</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="3">
+        <widget class="QPushButton" name="btn_Minus">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>18</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>-</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="4">
+        <widget class="QPushButton" name="btn_Koren">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>18</pointsize>
+           <underline>false</underline>
+           <strikeout>false</strikeout>
+           <kerning>true</kerning>
+          </font>
+         </property>
+         <property name="text">
+          <string>√</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QPushButton" name="btn_5">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>18</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>5</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QPushButton" name="btn_1">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>18</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>1</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="3">
+        <widget class="QPushButton" name="btn_Deljenje">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>18</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>/</string>
          </property>
         </widget>
        </item>
@@ -280,8 +388,8 @@
          </property>
         </widget>
        </item>
-       <item row="3" column="0">
-        <widget class="QPushButton" name="btn_0">
+       <item row="0" column="0">
+        <widget class="QPushButton" name="btn_7">
          <property name="sizePolicy">
           <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
            <horstretch>0</horstretch>
@@ -294,12 +402,12 @@
           </font>
          </property>
          <property name="text">
-          <string>0</string>
+          <string>7</string>
          </property>
         </widget>
        </item>
-       <item row="1" column="3">
-        <widget class="QPushButton" name="btn_Mnozenje">
+       <item row="3" column="3">
+        <widget class="QPushButton" name="btn_Jednako">
          <property name="sizePolicy">
           <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
            <horstretch>0</horstretch>
@@ -312,61 +420,7 @@
           </font>
          </property>
          <property name="text">
-          <string>*</string>
-         </property>
-        </widget>
-       </item>
-       <item row="3" column="1">
-        <widget class="QPushButton" name="btn_Tacka">
-         <property name="sizePolicy">
-          <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
-           <horstretch>0</horstretch>
-           <verstretch>0</verstretch>
-          </sizepolicy>
-         </property>
-         <property name="font">
-          <font>
-           <pointsize>18</pointsize>
-          </font>
-         </property>
-         <property name="text">
-          <string>.</string>
-         </property>
-        </widget>
-       </item>
-       <item row="1" column="4">
-        <widget class="QPushButton" name="btn_BrisanjeCifre">
-         <property name="sizePolicy">
-          <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
-           <horstretch>0</horstretch>
-           <verstretch>0</verstretch>
-          </sizepolicy>
-         </property>
-         <property name="font">
-          <font>
-           <pointsize>18</pointsize>
-          </font>
-         </property>
-         <property name="text">
-          <string>←</string>
-         </property>
-        </widget>
-       </item>
-       <item row="2" column="0">
-        <widget class="QPushButton" name="btn_1">
-         <property name="sizePolicy">
-          <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
-           <horstretch>0</horstretch>
-           <verstretch>0</verstretch>
-          </sizepolicy>
-         </property>
-         <property name="font">
-          <font>
-           <pointsize>18</pointsize>
-          </font>
-         </property>
-         <property name="text">
-          <string>1</string>
+          <string>=</string>
          </property>
         </widget>
        </item>
@@ -388,57 +442,15 @@
          </property>
         </widget>
        </item>
-       <item row="0" column="4">
-        <widget class="QPushButton" name="btn_Reset">
-         <property name="sizePolicy">
-          <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
-           <horstretch>0</horstretch>
-           <verstretch>0</verstretch>
-          </sizepolicy>
-         </property>
+       <item row="4" column="0" colspan="5">
+        <widget class="QPushButton" name="btn_FUNC2020">
          <property name="font">
           <font>
            <pointsize>18</pointsize>
           </font>
          </property>
          <property name="text">
-          <string>C</string>
-         </property>
-        </widget>
-       </item>
-       <item row="1" column="1">
-        <widget class="QPushButton" name="btn_5">
-         <property name="sizePolicy">
-          <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
-           <horstretch>0</horstretch>
-           <verstretch>0</verstretch>
-          </sizepolicy>
-         </property>
-         <property name="font">
-          <font>
-           <pointsize>18</pointsize>
-          </font>
-         </property>
-         <property name="text">
-          <string>5</string>
-         </property>
-        </widget>
-       </item>
-       <item row="2" column="3">
-        <widget class="QPushButton" name="btn_Minus">
-         <property name="sizePolicy">
-          <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
-           <horstretch>0</horstretch>
-           <verstretch>0</verstretch>
-          </sizepolicy>
-         </property>
-         <property name="font">
-          <font>
-           <pointsize>18</pointsize>
-          </font>
-         </property>
-         <property name="text">
-          <string>-</string>
+          <string>FUNC2020</string>
          </property>
         </widget>
        </item>

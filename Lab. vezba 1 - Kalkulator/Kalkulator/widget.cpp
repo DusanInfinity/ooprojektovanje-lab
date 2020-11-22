@@ -29,6 +29,7 @@ Widget::Widget(QWidget *parent)
     connect(ui->btn_PromenaZnaka, SIGNAL(clicked()), this, SLOT(onBtnClicked()));
     connect(ui->btn_Reset, SIGNAL(clicked()), this, SLOT(onBtnClicked()));
     connect(ui->btn_Tacka, SIGNAL(clicked()), this, SLOT(onBtnClicked()));
+    connect(ui->btn_FUNC2020, SIGNAL(clicked()), this, SLOT(onBtnClicked()));
 
     connect(calculator, SIGNAL(resultChanged(QString)), this, SLOT(onResultChanged(QString)));
     connect(calculator, SIGNAL(resultHistoryChanged(QString)), this, SLOT(onResultHistoryChanged(QString)));

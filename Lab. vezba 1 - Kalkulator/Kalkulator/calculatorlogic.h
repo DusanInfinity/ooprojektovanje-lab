@@ -26,6 +26,12 @@ private:
     void ResetCalculator();
     void ErrorMessage(QString);
 
+
+    /*
+    int zbirCifara(int);
+    bool prostBroj(int);
+    bool prostBroj2020(int broj);
+    int pow2020(int, int); */
 };
 
 #endif // CALCULATORLOGIC_H

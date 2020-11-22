@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/new/ikonice">
+        <file>icons/icon_load.png</file>
+        <file>icons/icon_save.png</file>
+    </qresource>
+</RCC>
