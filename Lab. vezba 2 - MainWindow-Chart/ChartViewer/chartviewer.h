@@ -18,7 +18,6 @@ public:
 
 private slots:
     void on_actionLoad_Chart_triggered();
-
     void on_actionSave_Chart_triggered();
 
 private:

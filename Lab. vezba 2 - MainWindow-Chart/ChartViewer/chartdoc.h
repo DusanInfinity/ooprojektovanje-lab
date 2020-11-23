@@ -10,15 +10,19 @@ class ChartDoc : public QObject
 
     QList<ChartPoint*> m_points;
 
+    void deleteCurrentChartData();
+
 public:
     explicit ChartDoc(QObject *parent = nullptr);
     ~ChartDoc();
     void loadChartFromFile(QString file);
     void saveChartToFile(QString file);
+    QList<ChartPoint*> getPoints();
+    void updatePointData(int, QString, QString, QString);
 
 
 signals:
-    void chartDataChanged(QString data);
+    void chartDataChanged();
 
 };
 

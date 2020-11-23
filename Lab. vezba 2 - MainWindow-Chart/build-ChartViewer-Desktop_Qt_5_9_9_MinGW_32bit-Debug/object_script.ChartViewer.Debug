@@ -1,0 +1,13 @@
+INPUT(
+./debug\chartdoc.o
+./debug\chartpoint.o
+./debug\chartpointdialog.o
+./debug\chartview.o
+./debug\main.o
+./debug\chartviewer.o
+./debug\qrc_icons.o
+./debug\moc_chartdoc.o
+./debug\moc_chartpointdialog.o
+./debug\moc_chartview.o
+./debug\moc_chartviewer.o
+);

@@ -1,0 +1,4 @@
+crveni blok,55.8,#ecff3e
+plavi blok,5,#0000ff
+zeleni blok,1.5,#55ff55
+RANDOM blok,7.5,#abcdef

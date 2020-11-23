@@ -19,7 +19,7 @@
 #include <QtWidgets/QMenuBar>
 #include <QtWidgets/QStatusBar>
 #include <QtWidgets/QToolBar>
-#include <QtWidgets/QWidget>
+#include <chartview.h>
 
 QT_BEGIN_NAMESPACE
 
@@ -28,7 +28,7 @@ class Ui_ChartViewer
 public:
     QAction *actionLoad_Chart;
     QAction *actionSave_Chart;
-    QWidget *centralwidget;
+    ChartView *centralwidget;
     QMenuBar *menubar;
     QMenu *menuFile;
     QStatusBar *statusbar;
@@ -38,7 +38,7 @@ public:
     {
         if (ChartViewer->objectName().isEmpty())
             ChartViewer->setObjectName(QStringLiteral("ChartViewer"));
-        ChartViewer->resize(800, 600);
+        ChartViewer->resize(805, 636);
         actionLoad_Chart = new QAction(ChartViewer);
         actionLoad_Chart->setObjectName(QStringLiteral("actionLoad_Chart"));
         QIcon icon;
@@ -49,12 +49,12 @@ public:
         QIcon icon1;
         icon1.addFile(QStringLiteral(":/new/ikonice/icons/icon_save.png"), QSize(), QIcon::Normal, QIcon::Off);
         actionSave_Chart->setIcon(icon1);
-        centralwidget = new QWidget(ChartViewer);
+        centralwidget = new ChartView(ChartViewer);
         centralwidget->setObjectName(QStringLiteral("centralwidget"));
         ChartViewer->setCentralWidget(centralwidget);
         menubar = new QMenuBar(ChartViewer);
         menubar->setObjectName(QStringLiteral("menubar"));
-        menubar->setGeometry(QRect(0, 0, 800, 21));
+        menubar->setGeometry(QRect(0, 0, 805, 21));
         menuFile = new QMenu(menubar);
         menuFile->setObjectName(QStringLiteral("menuFile"));
         ChartViewer->setMenuBar(menubar);

@@ -11,15 +11,20 @@ CONFIG += c++11
 SOURCES += \
     chartdoc.cpp \
     chartpoint.cpp \
+    chartpointdialog.cpp \
+    chartview.cpp \
     main.cpp \
     chartviewer.cpp
 
 HEADERS += \
     chartdoc.h \
     chartpoint.h \
+    chartpointdialog.h \
+    chartview.h \
     chartviewer.h
 
 FORMS += \
+    chartpointdialog.ui \
     chartviewer.ui
 
 # Default rules for deployment.

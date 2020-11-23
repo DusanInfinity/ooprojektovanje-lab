@@ -1,0 +1,4 @@
+blok,20.8,#ff0000
+plavi blok,10,#0000ff
+blok,50.5,#55ff55
+RANDOM blok,70.1,#abcdef

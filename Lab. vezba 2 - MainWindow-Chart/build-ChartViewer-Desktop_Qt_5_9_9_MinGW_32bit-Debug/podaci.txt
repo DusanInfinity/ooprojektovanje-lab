@@ -1,0 +1,4 @@
+crveni blok,75,#ff0000
+plavi blok,100,#0000ff
+zeleni blok,55,#55ff55
+RANDOM blok,20,#abcdef
