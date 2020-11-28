@@ -15,6 +15,7 @@ public:
     explicit ChartView(QWidget *parent = nullptr);
     void paintEvent(QPaintEvent*);
     void setChartDocRef(ChartDoc*);
+    void DrawSingleBar(QPainter &p, int, float, QColor);
 
 
 signals:

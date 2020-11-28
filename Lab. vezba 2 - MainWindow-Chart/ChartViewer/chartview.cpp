@@ -40,11 +40,47 @@ void ChartView::paintEvent(QPaintEvent *)
             {
                 int x = 100 + i*korakSirina;
                 p.setBrush(points[i]->getColor());
-                p.drawRect(100 + i*korakSirina, height()-50, korakSirina-10, -(points[i]->getValue()/10*korakVisina));
+                DrawSingleBar(p, i, points[i]->getValue(), points[i]->getColor());
+                //p.drawRect(100 + i*korakSirina, height()-50, korakSirina-10, -(points[i]->getValue()/10*korakVisina));
+                p.setPen(QColor("#000000"));
                 p.drawText(x+korakSirina/3, height()-30, points[i]->getLabel());
             }
         }
     }
+}
+
+void ChartView::DrawSingleBar(QPainter &p, int index, float value, QColor color)
+{ // Ideja je da iskoristimo 2 poziva drawLine i nacrtamo dve linije, jednu koja ce predstavljati glavni stub i drugu koja ce predstavljati okvir
+    int yMin = 50;
+    int yMax = height() -50;
+    int xMin = 100;
+    int xMax = width()-100;
+
+    int brPodeoka = 10;
+
+    int korakVisina = (yMax-yMin)/brPodeoka;
+    int korakSirina = (xMax-xMin)/BrPodataka;
+
+    int xSrednje = xMin + index*korakSirina + korakSirina/2; // Vrednost na X osi koja predstavlja sredinu datog stuba
+
+    QPen backgroundLinePen; // Olovka za pozadinsku liniju - iscrtavanje okvira
+    backgroundLinePen.setColor(QColor("#000000"));
+    backgroundLinePen.setWidth(korakSirina-10+2); // +2 zbor sirenja u odnosu na glavni stub, sto kad se podeli predstavlja okvir debljine 1px (leva i desna ivica)
+    backgroundLinePen.setCapStyle(Qt::FlatCap); // Sprecavamo "sirenje" u visinu, jer je sirina linije veca od 1px
+    // The Qt::FlatCap style is a square line end that does not cover the end point of the line. -> Izvor: https://doc.qt.io/qt-5/qpen.html#cap-style
+
+    p.setPen(backgroundLinePen);
+    p.drawLine(xSrednje, yMax+1, xSrednje, yMax - (value/brPodeoka*korakVisina)-1); // +1 jer se tako "izduzuje" crna linija i ona ce predstavljati donju ivicu, -1 zbog gornje ivice
+
+
+    QPen chartLinePen; // Olovka za iscrtavanje stuba
+    chartLinePen.setColor(color);
+    chartLinePen.setWidth(korakSirina-10); // korakSirina-10 je sirina ove linije da bi imalo razmaka izmedju 2 stuba (razmak je 10+10=20px
+    chartLinePen.setCapStyle(Qt::FlatCap); // Sprecavamo "sirenje" u visinu, odnosno iscrtavanje oblikovanih krajeva, jer je sirina linije veca od 1px
+    // The Qt::FlatCap style is a square line end that does not cover the end point of the line. -> Izvor: https://doc.qt.io/qt-5/qpen.html#cap-style
+
+    p.setPen(chartLinePen);
+    p.drawLine(xSrednje, yMax, xSrednje, yMax -(value/brPodeoka*korakVisina)); // iscrtavanje glavnog stuba
 }
 
 void ChartView::setChartDocRef(ChartDoc *p)
@@ -54,6 +90,7 @@ void ChartView::setChartDocRef(ChartDoc *p)
 
 void ChartView::onChartDataChanged()
 {
+    repaint();
     //QMessageBox::information(this, "Obavestenje", "Event je triggerovan!");
 }
 
