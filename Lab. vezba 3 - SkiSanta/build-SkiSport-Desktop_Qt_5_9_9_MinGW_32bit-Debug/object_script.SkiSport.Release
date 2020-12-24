@@ -1,0 +1,14 @@
+INPUT(
+./release\main.o
+./release\skigame.o
+./release\skiobstacle.o
+./release\skisanta.o
+./release\skisport.o
+./release\skiview.o
+./release\qrc_Resursi.o
+./release\moc_skigame.o
+./release\moc_skiobstacle.o
+./release\moc_skisanta.o
+./release\moc_skisport.o
+./release\moc_skiview.o
+);

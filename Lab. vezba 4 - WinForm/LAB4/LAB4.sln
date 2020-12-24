@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aplikacija", "Aplikacija.csproj", "{D1C8DE09-85F1-4984-B9E8-FFC56C23D4B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Podaci", "..\Klase i podaci\Podaci.csproj", "{36D6BA7D-18DE-4AB6-B742-91A0CE9D6916}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D1C8DE09-85F1-4984-B9E8-FFC56C23D4B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1C8DE09-85F1-4984-B9E8-FFC56C23D4B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1C8DE09-85F1-4984-B9E8-FFC56C23D4B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1C8DE09-85F1-4984-B9E8-FFC56C23D4B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36D6BA7D-18DE-4AB6-B742-91A0CE9D6916}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36D6BA7D-18DE-4AB6-B742-91A0CE9D6916}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36D6BA7D-18DE-4AB6-B742-91A0CE9D6916}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36D6BA7D-18DE-4AB6-B742-91A0CE9D6916}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8E23BDFD-5610-4464-8FE9-E185CAEC9A38}
+	EndGlobalSection
+EndGlobal

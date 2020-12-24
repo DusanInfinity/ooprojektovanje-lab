@@ -32,13 +32,14 @@ public:
     {
         if (SkiSport->objectName().isEmpty())
             SkiSport->setObjectName(QStringLiteral("SkiSport"));
-        SkiSport->resize(800, 600);
+        SkiSport->resize(708, 614);
         centralwidget = new SkiView(SkiSport);
         centralwidget->setObjectName(QStringLiteral("centralwidget"));
+        centralwidget->setFocusPolicy(Qt::ClickFocus);
         SkiSport->setCentralWidget(centralwidget);
         menubar = new QMenuBar(SkiSport);
         menubar->setObjectName(QStringLiteral("menubar"));
-        menubar->setGeometry(QRect(0, 0, 800, 21));
+        menubar->setGeometry(QRect(0, 0, 708, 21));
         SkiSport->setMenuBar(menubar);
         statusbar = new QStatusBar(SkiSport);
         statusbar->setObjectName(QStringLiteral("statusbar"));

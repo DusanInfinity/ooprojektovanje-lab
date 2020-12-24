@@ -1,0 +1,14 @@
+INPUT(
+./debug\main.o
+./debug\skigame.o
+./debug\skiobstacle.o
+./debug\skisanta.o
+./debug\skisport.o
+./debug\skiview.o
+./debug\qrc_Resursi.o
+./debug\moc_skigame.o
+./debug\moc_skiobstacle.o
+./debug\moc_skisanta.o
+./debug\moc_skisport.o
+./debug\moc_skiview.o
+);

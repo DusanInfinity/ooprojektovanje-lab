@@ -1,2 +1,12 @@
-<!DOCTYPE RCC>
-<RCC version="1.0"/>
+<RCC>
+    <qresource prefix="/images">
+        <file>images/santa1.png</file>
+        <file>images/santa2.png</file>
+        <file>images/santa-left1.png</file>
+        <file>images/santa-left2.png</file>
+        <file>images/santa-right1.png</file>
+        <file>images/santa-right2.png</file>
+        <file>images/snowman.png</file>
+        <file>images/tree.png</file>
+    </qresource>
+</RCC>

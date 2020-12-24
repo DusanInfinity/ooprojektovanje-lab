@@ -4,6 +4,7 @@
 #include <QWidget>
 #include <QTimer>
 #include "skigame.h"
+#include <QtGui>
 
 class SkiView : public QWidget
 {
@@ -15,8 +16,9 @@ class SkiView : public QWidget
 public:
     explicit SkiView(QWidget *parent = nullptr);
     void paintEvent(QPaintEvent*);
-    void keyPressEvent(QKeyEvent*);
-
+    void keyPressEvent(QKeyEvent *event);
+    void keyReleaseEvent(QKeyEvent *event);
+    void resizeEvent(QResizeEvent *event);
 
 signals:
 

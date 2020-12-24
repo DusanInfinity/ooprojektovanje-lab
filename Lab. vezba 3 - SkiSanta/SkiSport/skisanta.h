@@ -11,12 +11,20 @@ class SkiSanta : public QObject
     int y;
     int w;
     int h;
-    QList<QImage> *images;
-    int currentState; // 0 - levo, 1 - pravo, 2 - desno
+    QList<QImage> images;
+    short currentState; // 0 - levo, 1 - pravo, 2 - desno
+    short imageState;
 
 
 public:
-    explicit SkiSanta(QObject *parent = nullptr);
+    explicit SkiSanta(int w, int h, QObject *parent = nullptr);
+    void changeSantaPos(int);
+
+    int getX() const;
+    int getY() const;
+    QImage getCurrentStateImage();
+    void changeImage();
+    void resize(QSize);
 
 signals:
 
