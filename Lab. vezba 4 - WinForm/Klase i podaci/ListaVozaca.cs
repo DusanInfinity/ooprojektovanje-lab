@@ -16,8 +16,8 @@ namespace Podaci
         private static ListaVozaca _instanca = null;
         private List<Vozac> _vozaci;
 
-        public delegate void SortDelegate(List<Vozac> vozaci);
-        [XmlIgnore] public SortDelegate SortListDelegate { get; set; } = null;
+        public delegate void SortDelegat();
+        [XmlIgnore] public SortDelegat SortDelegate { get; set; } = null;
 
         public List<Vozac> ListaSvihVozaca
         {

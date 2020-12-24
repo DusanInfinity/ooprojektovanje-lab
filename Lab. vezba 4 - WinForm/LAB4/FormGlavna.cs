@@ -23,8 +23,8 @@ namespace LAB4
         #region Metode
         private void UcitajPodatke()
         {
-            if (ListaVozaca.Instanca.SortListDelegate != null)
-                ListaVozaca.Instanca.SortListDelegate.Invoke(ListaVozaca.Instanca.ListaSvihVozaca.ToList());
+            if (ListaVozaca.Instanca.SortDelegate != null)
+                ListaVozaca.Instanca.SortDelegate.Invoke();
             else
                 dgvListaVozaca.DataSource = ListaVozaca.Instanca.ListaSvihVozaca.ToList();
 
@@ -41,8 +41,10 @@ namespace LAB4
         }
 
         #region Sortiranje
-        private void SortirajPoImenu(List<Vozac> lista)
+        private void SortirajPoImenu()
         {
+            List<Vozac> lista = ListaVozaca.Instanca.ListaSvihVozaca.ToList();
+
             if (lista == null)
                 return;
 
@@ -67,8 +69,9 @@ namespace LAB4
             dgvListaVozaca.DataSource = lista.ToList();
         }
 
-        private void SortirajPoPrezimenu(List<Vozac> lista)
+        private void SortirajPoPrezimenu()
         {
+            List<Vozac> lista = ListaVozaca.Instanca.ListaSvihVozaca.ToList();
             if (lista == null)
                 return;
 
@@ -92,8 +95,9 @@ namespace LAB4
             dgvListaVozaca.DataSource = lista.ToList();
         }
 
-        private void SortirajPoBrVozackeDozvole(List<Vozac> lista)
+        private void SortirajPoBrVozackeDozvole()
         {
+            List<Vozac> lista = ListaVozaca.Instanca.ListaSvihVozaca.ToList();
             if (lista == null)
                 return;
 
@@ -201,18 +205,18 @@ namespace LAB4
         private void comboSort_SelectedIndexChanged(object sender, EventArgs e)
         {
             if(comboSort.Text == "Broj vozacke dozvole")
-                ListaVozaca.Instanca.SortListDelegate = SortirajPoBrVozackeDozvole;
+                ListaVozaca.Instanca.SortDelegate = SortirajPoBrVozackeDozvole;
             else if(comboSort.Text == "Ime")
-                ListaVozaca.Instanca.SortListDelegate = SortirajPoImenu;
+                ListaVozaca.Instanca.SortDelegate = SortirajPoImenu;
             else if(comboSort.Text == "Prezime")
-                ListaVozaca.Instanca.SortListDelegate = SortirajPoPrezimenu;
+                ListaVozaca.Instanca.SortDelegate = SortirajPoPrezimenu;
         }
 
         private void btnSortiraj_Click(object sender, EventArgs e)
         {
-            if (ListaVozaca.Instanca.SortListDelegate != null)
+            if (ListaVozaca.Instanca.SortDelegate != null)
             {
-                ListaVozaca.Instanca.SortListDelegate.Invoke(ListaVozaca.Instanca.ListaSvihVozaca.ToList());
+                ListaVozaca.Instanca.SortDelegate.Invoke();
 
                 MessageBox.Show("Uspesno ste sortirali vozace!", "Obavestenje", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
