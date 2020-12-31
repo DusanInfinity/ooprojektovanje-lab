@@ -219,78 +219,6 @@
   <data name="grBoxListaVozaca.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
   </data>
-  <data name="&gt;&gt;dgvListaVozaca.Name" xml:space="preserve">
-    <value>dgvListaVozaca</value>
-  </data>
-  <data name="&gt;&gt;dgvListaVozaca.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;dgvListaVozaca.Parent" xml:space="preserve">
-    <value>grBoxListaVozaca</value>
-  </data>
-  <data name="&gt;&gt;dgvListaVozaca.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;btnObrisiVozaca.Name" xml:space="preserve">
-    <value>btnObrisiVozaca</value>
-  </data>
-  <data name="&gt;&gt;btnObrisiVozaca.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnObrisiVozaca.Parent" xml:space="preserve">
-    <value>grBoxListaVozaca</value>
-  </data>
-  <data name="&gt;&gt;btnObrisiVozaca.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;btnIzmeniVozaca.Name" xml:space="preserve">
-    <value>btnIzmeniVozaca</value>
-  </data>
-  <data name="&gt;&gt;btnIzmeniVozaca.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnIzmeniVozaca.Parent" xml:space="preserve">
-    <value>grBoxListaVozaca</value>
-  </data>
-  <data name="&gt;&gt;btnIzmeniVozaca.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;btnDodajVozaca.Name" xml:space="preserve">
-    <value>btnDodajVozaca</value>
-  </data>
-  <data name="&gt;&gt;btnDodajVozaca.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnDodajVozaca.Parent" xml:space="preserve">
-    <value>grBoxListaVozaca</value>
-  </data>
-  <data name="&gt;&gt;btnDodajVozaca.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="grBoxListaVozaca.Location" type="System.Drawing.Point, System.Drawing">
-    <value>29, 65</value>
-  </data>
-  <data name="grBoxListaVozaca.Size" type="System.Drawing.Size, System.Drawing">
-    <value>685, 378</value>
-  </data>
-  <data name="grBoxListaVozaca.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="grBoxListaVozaca.Text" xml:space="preserve">
-    <value>Lista vozaca</value>
-  </data>
-  <data name="&gt;&gt;grBoxListaVozaca.Name" xml:space="preserve">
-    <value>grBoxListaVozaca</value>
-  </data>
-  <data name="&gt;&gt;grBoxListaVozaca.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;grBoxListaVozaca.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;grBoxListaVozaca.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <data name="dgvListaVozaca.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
   </data>
@@ -431,6 +359,30 @@
   </data>
   <data name="&gt;&gt;btnDodajVozaca.ZOrder" xml:space="preserve">
     <value>3</value>
+  </data>
+  <data name="grBoxListaVozaca.Location" type="System.Drawing.Point, System.Drawing">
+    <value>29, 65</value>
+  </data>
+  <data name="grBoxListaVozaca.Size" type="System.Drawing.Size, System.Drawing">
+    <value>685, 378</value>
+  </data>
+  <data name="grBoxListaVozaca.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="grBoxListaVozaca.Text" xml:space="preserve">
+    <value>Lista vozaca</value>
+  </data>
+  <data name="&gt;&gt;grBoxListaVozaca.Name" xml:space="preserve">
+    <value>grBoxListaVozaca</value>
+  </data>
+  <data name="&gt;&gt;grBoxListaVozaca.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grBoxListaVozaca.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;grBoxListaVozaca.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <metadata name="tmrVreme.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
