@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LAB5-Karte", "LAB5-Karte.csproj", "{FC8F035E-6B77-4FA2-ADD4-9B6BA390F68A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Podaci", "..\Podaci\Podaci.csproj", "{B20B2F0B-D369-4C9E-BD6E-652771D3A462}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC8F035E-6B77-4FA2-ADD4-9B6BA390F68A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC8F035E-6B77-4FA2-ADD4-9B6BA390F68A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC8F035E-6B77-4FA2-ADD4-9B6BA390F68A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC8F035E-6B77-4FA2-ADD4-9B6BA390F68A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B20B2F0B-D369-4C9E-BD6E-652771D3A462}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B20B2F0B-D369-4C9E-BD6E-652771D3A462}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B20B2F0B-D369-4C9E-BD6E-652771D3A462}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B20B2F0B-D369-4C9E-BD6E-652771D3A462}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {94C87C3D-FB67-4427-B1A0-0C889B9902D3}
+	EndGlobalSection
+EndGlobal

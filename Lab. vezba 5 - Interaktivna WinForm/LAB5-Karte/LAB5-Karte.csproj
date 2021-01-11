@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FC8F035E-6B77-4FA2-ADD4-9B6BA390F68A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>LAB5_Karte</RootNamespace>
+    <AssemblyName>LAB5-Karte</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FormaUlog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormaUlog.Designer.cs">
+      <DependentUpon>FormaUlog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GlavniProzor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GlavniProzor.Designer.cs">
+      <DependentUpon>GlavniProzor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormaUlog.resx">
+      <DependentUpon>FormaUlog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GlavniProzor.resx">
+      <DependentUpon>GlavniProzor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Podaci\Podaci.csproj">
+      <Project>{b20b2f0b-d369-4c9e-bd6e-652771d3a462}</Project>
+      <Name>Podaci</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="slike\1C.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="slike\1D.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="slike\1H.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="slike\1S.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="slike\2C.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="slike\2D.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="slike\2H.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="slike\2S.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="slike\3C.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="slike\3D.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="slike\3H.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="slike\3S.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="slike\4C.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="slike\4D.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="slike\4H.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="slike\4S.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="slike\5C.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="slike\5D.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="slike\5H.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="slike\5S.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="slike\6C.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="slike\6D.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="slike\6H.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="slike\6S.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="slike\7C.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="slike\7D.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="slike\7H.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="slike\7S.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="slike\8C.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="slike\8D.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="slike\8H.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="slike\8S.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="slike\9C.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="slike\9D.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="slike\9H.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="slike\9S.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="slike\10C.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="slike\10D.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="slike\10H.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="slike\10S.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="slike\12C.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="slike\12D.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="slike\12H.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="slike\12S.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="slike\13C.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="slike\13D.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="slike\13H.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="slike\13S.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="slike\14C.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="slike\14D.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="slike\14H.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="slike\14S.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

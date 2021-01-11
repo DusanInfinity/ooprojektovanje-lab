@@ -1,14 +1,10 @@
-﻿using System;
+﻿using Podaci;
+using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-using Podaci;
 using System.IO;
+using System.Linq;
+using System.Windows.Forms;
 
 namespace LAB4
 {
@@ -51,7 +47,7 @@ namespace LAB4
         {
             if (String.IsNullOrEmpty(txtIme.Text))
             {
-                MessageBox.Show("Niste uneli ime vozaca!", "GRESKA", 
+                MessageBox.Show("Niste uneli ime vozaca!", "GRESKA",
                     MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return false;
             }
@@ -105,7 +101,7 @@ namespace LAB4
 
         public bool DodajKategoriju(Kategorija novaKat)
         {
-            foreach(Kategorija k in Kategorije)
+            foreach (Kategorija k in Kategorije)
             {
                 if (k.KategorijaOznaka == novaKat.KategorijaOznaka)
                     return false;
@@ -198,7 +194,7 @@ namespace LAB4
 
         private void txtIme_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if(!Char.IsLetter(e.KeyChar) && !Char.IsControl(e.KeyChar))
+            if (!Char.IsLetter(e.KeyChar) && !Char.IsControl(e.KeyChar))
                 e.Handled = true;
         }
 
@@ -219,7 +215,7 @@ namespace LAB4
             if (!IsValidInput())
                 return;
 
-            if(VozacObj == null)
+            if (VozacObj == null)
             {
                 Vozac vozac = new Vozac(txtIme.Text, txtPrezime.Text, dtpDatumRodjenja.Value, dtpVazenjeOd.Value, dtpVazenjeDo.Value, txtBrVozackeDozvole.Text, txtMestoIzdavanja.Text, cbPol.SelectedIndex == 0, _imagePath, Kategorije, Zabrane);
 
@@ -281,13 +277,13 @@ namespace LAB4
             int selectedRow = dgvKategorije.SelectedRows[0].Index;
             Podaci.Kategorije kategorija = (Podaci.Kategorije)dgvKategorije["KategorijaOznaka", selectedRow].Value;
 
-            foreach(Kategorija kat in Kategorije.ToList())
+            foreach (Kategorija kat in Kategorije.ToList())
             {
-                if(kat.KategorijaOznaka == kategorija)
+                if (kat.KategorijaOznaka == kategorija)
                 {
                     Kategorije.Remove(kat);
                     // Vrsimo proveru da li igrac ima i zabranu za ovu kategoriju, jer ne moze da ima zabranu a da uopste ne poseduje ni dozvolu
-                    foreach(Kategorija zabrana in Zabrane.ToList())
+                    foreach (Kategorija zabrana in Zabrane.ToList())
                     {
                         if (zabrana.KategorijaOznaka == kat.KategorijaOznaka)
                             Zabrane.Remove(zabrana);

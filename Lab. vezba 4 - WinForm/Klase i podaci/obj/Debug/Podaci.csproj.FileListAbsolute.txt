@@ -4,3 +4,9 @@ G:\PC Share\Moji podaci\Slike, skripte i podaci - FAX\III godina\OOP\Lab. vezba 
 G:\PC Share\Moji podaci\Slike, skripte i podaci - FAX\III godina\OOP\Lab. vezba 4 - WinForm\Klase i podaci\obj\Debug\Podaci.csproj.CoreCompileInputs.cache
 G:\PC Share\Moji podaci\Slike, skripte i podaci - FAX\III godina\OOP\Lab. vezba 4 - WinForm\Klase i podaci\obj\Debug\Klase i podaci.dll
 G:\PC Share\Moji podaci\Slike, skripte i podaci - FAX\III godina\OOP\Lab. vezba 4 - WinForm\Klase i podaci\obj\Debug\Klase i podaci.pdb
+E:\Moji podaci\Slike, skripte i podaci - FAX\III godina\OOP\Lab. vezba 4 - WinForm\Klase i podaci\bin\Debug\Klase i podaci.dll
+E:\Moji podaci\Slike, skripte i podaci - FAX\III godina\OOP\Lab. vezba 4 - WinForm\Klase i podaci\bin\Debug\Klase i podaci.pdb
+E:\Moji podaci\Slike, skripte i podaci - FAX\III godina\OOP\Lab. vezba 4 - WinForm\Klase i podaci\obj\Debug\Podaci.csprojAssemblyReference.cache
+E:\Moji podaci\Slike, skripte i podaci - FAX\III godina\OOP\Lab. vezba 4 - WinForm\Klase i podaci\obj\Debug\Podaci.csproj.CoreCompileInputs.cache
+E:\Moji podaci\Slike, skripte i podaci - FAX\III godina\OOP\Lab. vezba 4 - WinForm\Klase i podaci\obj\Debug\Klase i podaci.dll
+E:\Moji podaci\Slike, skripte i podaci - FAX\III godina\OOP\Lab. vezba 4 - WinForm\Klase i podaci\obj\Debug\Klase i podaci.pdb

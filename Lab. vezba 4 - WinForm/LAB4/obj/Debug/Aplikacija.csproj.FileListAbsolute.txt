@@ -13,3 +13,18 @@ G:\PC Share\Moji podaci\Slike, skripte i podaci - FAX\III godina\OOP\Lab. vezba 
 G:\PC Share\Moji podaci\Slike, skripte i podaci - FAX\III godina\OOP\Lab. vezba 4 - WinForm\LAB4\obj\Debug\Aplikacija.csproj.CopyComplete
 G:\PC Share\Moji podaci\Slike, skripte i podaci - FAX\III godina\OOP\Lab. vezba 4 - WinForm\LAB4\obj\Debug\LAB4.exe
 G:\PC Share\Moji podaci\Slike, skripte i podaci - FAX\III godina\OOP\Lab. vezba 4 - WinForm\LAB4\obj\Debug\LAB4.pdb
+E:\Moji podaci\Slike, skripte i podaci - FAX\III godina\OOP\Lab. vezba 4 - WinForm\LAB4\bin\Debug\LAB4.exe.config
+E:\Moji podaci\Slike, skripte i podaci - FAX\III godina\OOP\Lab. vezba 4 - WinForm\LAB4\bin\Debug\LAB4.exe
+E:\Moji podaci\Slike, skripte i podaci - FAX\III godina\OOP\Lab. vezba 4 - WinForm\LAB4\bin\Debug\LAB4.pdb
+E:\Moji podaci\Slike, skripte i podaci - FAX\III godina\OOP\Lab. vezba 4 - WinForm\LAB4\bin\Debug\Klase i podaci.dll
+E:\Moji podaci\Slike, skripte i podaci - FAX\III godina\OOP\Lab. vezba 4 - WinForm\LAB4\bin\Debug\Klase i podaci.pdb
+E:\Moji podaci\Slike, skripte i podaci - FAX\III godina\OOP\Lab. vezba 4 - WinForm\LAB4\obj\Debug\Aplikacija.csprojAssemblyReference.cache
+E:\Moji podaci\Slike, skripte i podaci - FAX\III godina\OOP\Lab. vezba 4 - WinForm\LAB4\obj\Debug\LAB4.FormGlavna.resources
+E:\Moji podaci\Slike, skripte i podaci - FAX\III godina\OOP\Lab. vezba 4 - WinForm\LAB4\obj\Debug\LAB4.FormKatZabr.resources
+E:\Moji podaci\Slike, skripte i podaci - FAX\III godina\OOP\Lab. vezba 4 - WinForm\LAB4\obj\Debug\LAB4.FormVozac.resources
+E:\Moji podaci\Slike, skripte i podaci - FAX\III godina\OOP\Lab. vezba 4 - WinForm\LAB4\obj\Debug\LAB4.Properties.Resources.resources
+E:\Moji podaci\Slike, skripte i podaci - FAX\III godina\OOP\Lab. vezba 4 - WinForm\LAB4\obj\Debug\Aplikacija.csproj.GenerateResource.cache
+E:\Moji podaci\Slike, skripte i podaci - FAX\III godina\OOP\Lab. vezba 4 - WinForm\LAB4\obj\Debug\Aplikacija.csproj.CoreCompileInputs.cache
+E:\Moji podaci\Slike, skripte i podaci - FAX\III godina\OOP\Lab. vezba 4 - WinForm\LAB4\obj\Debug\Aplikacija.csproj.CopyComplete
+E:\Moji podaci\Slike, skripte i podaci - FAX\III godina\OOP\Lab. vezba 4 - WinForm\LAB4\obj\Debug\LAB4.exe
+E:\Moji podaci\Slike, skripte i podaci - FAX\III godina\OOP\Lab. vezba 4 - WinForm\LAB4\obj\Debug\LAB4.pdb
